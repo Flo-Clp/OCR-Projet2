@@ -1,0 +1,576 @@
+/* polices personnalisées */
+
+body
+{
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    
+}
+
+#logo img
+{
+    width: 170px;
+    height: 70px;
+    padding-top: 30px;
+}
+
+header h1
+{
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+.tete
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    text-decoration: overline;
+}
+
+nav li
+{
+    margin-right: 50px;
+}
+
+nav a
+{
+    padding-right: 3px;
+}
+
+.search-input
+{
+    padding: 12px;
+}
+
+#rechercher
+{
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 20px;
+    width: 35px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+
+#filtres
+{
+    position: absolute;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+}
+
+p
+{
+    font-family: 'Raleway';
+    color: black;
+}
+
+.button
+{
+    background-color: #0065FC;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.marker
+{
+    margin-right: 10px;
+    
+}
+
+#economique
+{
+    display: flex;
+    border: 3px #F2F2F2 solid;
+    border-radius: 100px;
+    border-color: #F2F2F2;
+    align-items: center;
+    width: fit-content;
+    margin: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.money
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    margin-right: 10px;
+    border: 20px #DEEBFF solid;
+}
+
+#familial
+{
+    display: flex;
+    border: 3px #F2F2F2 solid;
+    border-radius: 100px;
+    border-color: #F2F2F2;
+    align-items: center;
+    width: fit-content; 
+    margin: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.child
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    margin-right: 10px;
+    border: 20px #DEEBFF solid; 
+}
+
+#romantique
+{
+    display: flex;
+    border: 3px #F2F2F2 solid;
+    border-radius: 100px;
+    border-color: #F2F2F2;
+    align-items: center;
+    width: fit-content;
+    margin: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.heart
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    margin-right: 10px;
+    border: 20px #DEEBFF solid;  
+}
+
+#animaux
+{
+    display: flex;
+    border: 3px #F2F2F2 solid;
+    border-radius: 100px;
+    border-color: #F2F2F2;
+    align-items: center;
+    width: fit-content;
+    margin: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.dog
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    margin-right: 10px;
+    border: 20px #DEEBFF solid; 
+}
+
+.dog:hover
+{
+    color: crimson;
+}
+
+.heart:hover
+{
+    color: crimson;
+}
+
+.money:hover
+{
+    color: crimson;
+}
+
+.child:hover
+{
+    color: crimson;
+}
+
+section
+{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+
+.info
+{
+    color: #0065FC;
+    display: flex;
+    margin-right: 10px;
+    border: 10px #F2F2F2 solid;
+    border-radius: 100%;
+}
+
+.star
+{
+    color: #0065FC;
+}
+
+.stars
+{
+    color: #F2F2F2;
+}
+
+.container
+{
+    background-color: #F2F2F2;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    width: 55%;
+}
+
+.hebergements
+{
+    margin: 15px;
+    width: 250px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    
+}
+
+#hebergements_container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hebergements .img
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 140px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+
+.lespluspopulaires .img
+{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 140px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+
+.lespluspopulaires 
+{
+    margin: 15px;
+    width: 250px;
+    background-color: white;
+    padding: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+
+.hebergements-img-1
+{
+    background-image: url(images/hebergements/4_small/cannebiere.jpg);
+    
+}
+
+.hebergements-img-2
+{
+    background-image: url(images/hebergements/4_small/port.jpg);
+}
+
+.hebergements-img-3
+{
+    background-image: url(images/hebergements/4_small/mouettes.jpg);
+}
+
+.hebergements-img-4
+{
+    background-image: url(images/hebergements/4_small/mer.jpg);
+}
+
+.hebergements-img-5
+{
+    background-image: url(images/hebergements/4_small/panier.jpg);
+}
+
+.hebergements-img-6
+{
+    background-image: url(images/hebergements/4_small/amina.jpg);
+}
+
+.lespluspopulaires-img-1
+{
+    background-image: url(images/hebergements/4_small/soleil.jpg);
+}
+
+.lespluspopulaires-img-2
+{
+    background-image: url(images/hebergements/4_small/eau.jpg);
+}
+
+.lespluspopulaires-img-3
+{
+    background-image: url(images/hebergements/4_small/blanc.jpg);
+}
+
+.desc
+{
+     font-weight: bold;
+}
+
+.line
+{
+    display: flex;
+}
+
+aside
+{
+    
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin: 0 20px;
+    border: 10px #F2F2F2 solid;
+    padding-left: 20px;
+    
+}
+
+.description
+{
+    text-align: left;
+    border: 10px white solid;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    float: right;
+    font-weight: bold;
+    
+}
+
+#hebergement_section
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container2
+{
+    
+    padding-top: 20px;
+    width: 100%;
+    padding-right: 150px;
+}
+
+#activites_container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.img
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.descport
+{
+    background-color: white;
+    padding: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 260px;
+    text-align: justify;
+    font-weight: bold;
+    box-shadow: 1px 1px 30px black;
+    position: relative;
+    bottom: 10px;
+}
+
+.descfort
+{
+    background-color: white;
+    padding: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 260px;
+    text-align: justify;
+    font-weight: bold;
+    box-shadow: 1px 1px 30px black;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+.descfrioul
+{
+    background-color: white;
+    padding: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 260px;
+    text-align: justify;
+    font-weight: bold;
+    box-shadow: 1px 1px 30px black;
+    position: relative;
+    bottom: 60px;
+}
+
+.desccalanques
+{
+    background-color: white;
+    padding: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 260px;
+    text-align: justify;
+    font-weight: bold;
+    box-shadow: 1px 1px 30px black;
+    position: relative;
+    bottom: 10px;
+}
+
+.descgarde
+{
+    background-color: white;
+    padding: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 260px;
+    text-align: justify;
+    font-weight: bold;
+    box-shadow: 1px 1px 30px black;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+.descparc
+{
+    background-color: white;
+    padding: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 260px;
+    text-align: justify;
+    font-weight: bold;
+    box-shadow: 1px 1px 30px black;
+    position: relative;
+    bottom: 60px;
+}
+
+.activites-img-1
+{
+    background-image: url(images/activites/4_small/vieuxport.jpg);
+}
+
+.activites-img-2
+{
+    background-image: url(images/activites/4_small/fort.jpg);
+}
+
+.activites-img-3
+{
+    background-image: url(images/activites/4_small/frioul.jpg);
+}
+
+.activites-img-4
+{
+    background-image: url(images/activites/4_small/calanques.jpg);
+}
+
+.activites-img-5
+{
+    background-image: url(images/activites/4_small/notredame.jpg);
+}
+
+.activites-img-6
+{
+    background-image: url(images/activites/4_small/longchamp.jpg);
+}
+
+.imgs
+{
+    border-radius: 15px;
+    
+    width: 300px;
+    height: 185px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer
+{
+    background-color: #F2F2F2;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+#reservia_footer
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.a_propos
+{
+    list-style-type: none;
+    padding-right: 200px;
+    padding-left: 0%;
+}
+
+.noshebergements
+{
+    list-style-type: none;
+    padding-right: 200px;
+    padding-left: 0%;
+}
+
+.assistance
+{
+    list-style-type: none;
+    padding-left: 0%;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.rfooter
+{
+    margin-left: 30px;
+}

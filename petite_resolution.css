@@ -1,0 +1,60 @@
+@media screen and (max-width: 1280px)
+{
+    #body
+    {
+        width: auto;
+    }
+
+    .img
+    {
+        width: 330px;
+        height: 150px;
+    }
+
+    .imgs
+    {
+        width: 330px;
+        height: 150px;
+    }
+
+    .imgp
+    {
+        width: 330px;
+        height: 150px;
+    }
+
+    #activites_container
+    {
+        padding-bottom: 10px;
+    }
+    
+    .descport
+    {
+        width: 290px;
+    }
+
+    .descfort
+    {
+        width: 290px;
+    }
+
+    .descfrioul
+    {
+        width: 290px;
+    }
+
+    .desccalanques
+    {
+        width: 290px;
+    }
+
+    .descgarde
+    {
+        width: 290px;
+    }
+
+    .descparc
+    {
+        width: 290px;
+    }
+}
