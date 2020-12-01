@@ -62,4 +62,21 @@
     {
         background-color: white;
     }
+
+    .item-survol-menu:hover
+    {
+        border-bottom: 2px solid #0065FC;
+    }
+
+    #filtre
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    aside
+    {
+        position: top;
+    }
 }
