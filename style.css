@@ -1,18 +1,32 @@
 /* polices personnalisées */
 
+ul 
+{
+    margin: 0;
+}
+
+
 body
 {
     background-color: white;
     font-family: 'Raleway', sans-serif;
     color: black;
+    margin: 0
     
 }
 
-#logo img
+
+#header-barre-haut 
 {
-    width: 170px;
-    height: 70px;
-    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#header-barre-haut img
+{
+    width: 100px;
 }
 
 header h1
@@ -26,17 +40,32 @@ header h1
     list-style-type: none;
     display: flex;
     flex-direction: row-reverse;
-    text-decoration: overline;
 }
 
 nav li
 {
-    margin-right: 50px;
+    padding: 24px 20px;
 }
 
 nav a
 {
     padding-right: 3px;
+    color: black;
+}
+
+#inscription-lien a 
+{
+    color: blue;
+}
+
+.item-survol-menu:hover 
+{
+    border-top: 2px solid blue;
+}
+
+.item-survol-menu:hover a 
+{
+   color: blue;
 }
 
 .search-input
@@ -270,18 +299,18 @@ section
 {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    border-top-right-radius: 0;
     height: 140px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 130px;
     
 }
 
 .lespluspopulaires 
 {
     margin: 15px;
-    width: 250px;
     background-color: white;
     padding: 5px;
     border-top-left-radius: 15px;
@@ -356,6 +385,13 @@ aside
     
 }
 
+#aside-titre 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .description
 {
     text-align: left;
@@ -364,8 +400,13 @@ aside
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     float: right;
-    font-weight: bold;
-    
+    font-weight: bold;    
+}
+
+.lespluspopulaires 
+{
+    background-color: white;
+    display: flex;
 }
 
 #hebergement_section
@@ -377,7 +418,6 @@ aside
 
 .container2
 {
-    
     padding-top: 20px;
     width: 100%;
     padding-right: 150px;
