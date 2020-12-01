@@ -1,25 +1,25 @@
 @media screen and (max-width: 1280px)
 {
-    #body
+    body
     {
         width: auto;
     }
 
     .img
     {
-        width: 330px;
+        width: auto;
         height: 150px;
     }
 
     .imgs
     {
-        width: 330px;
+        width: auto;
         height: 150px;
     }
 
     .imgp
     {
-        width: 330px;
+        width: auto;
         height: 150px;
     }
 
@@ -56,5 +56,10 @@
     .descparc
     {
         width: 290px;
+    }
+
+    .container
+    {
+        background-color: white;
     }
 }
