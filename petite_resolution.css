@@ -142,5 +142,28 @@
 
 @media screen and  (min-width: 681px) and (max-width: 1300px) 
 {
-    
+    #filtre
+    {
+        display: flex;
+        flex: auto;
+    }
+
+    .container
+    {
+        display: flex;
+        flex: auto;
+    }
+
+    aside
+    {
+        display: flex;
+        flex: auto;
+        margin-top: 20px;
+    }
+
+    .container2
+    {
+        display: flex;
+        flex: auto;
+    }
 }
