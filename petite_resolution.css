@@ -125,19 +125,16 @@
         background-color: white;
     }
 
-    #aside-titre
-    {
-        flex-direction: reverse;
-        columns: reverse;
-    }
-
     #filtre
     {
         justify-content: left;
         display: block;
     }
 
-    
+    #hebergement_section
+    {
+        flex-direction: column-reverse;
+    }
 }
 
 @media screen and  (min-width: 681px) and (max-width: 1300px) 
@@ -150,20 +147,31 @@
 
     .container
     {
-        display: flex;
+        
         flex: auto;
+        width: auto;
     }
 
     aside
     {
-        display: flex;
+        
         flex: auto;
         margin-top: 20px;
     }
 
     .container2
     {
-        display: flex;
+        
         flex: auto;
+    }
+
+    #hebergement_section
+    {
+        flex-direction: column-reverse;
+    }
+
+    .container
+    {
+        background-color: white;
     }
 }
