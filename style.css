@@ -82,6 +82,11 @@ nav a
     align-items: center;
 }
 
+.button2
+{
+    display: none;
+}
+
 #filtre
 {
     display: flex;
