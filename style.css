@@ -70,6 +70,11 @@ nav a
     padding: 12px;
 }
 
+#logements
+{
+    display: flex;
+}
+
 #rechercher
 {
     background-color: #F2F2F2;
