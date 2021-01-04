@@ -278,7 +278,7 @@ section
     padding-left: 20px;
     padding-top: 20px;
     border-radius: 20px;
-    width: 55%;
+    width: 63%;
 }
 
 .hebergements
@@ -394,10 +394,7 @@ aside
     
     background-color: #F2F2F2;
     border-radius: 20px;
-    margin: 0 20px;
     border: 10px #F2F2F2 solid;
-    padding-left: 20px;
-    
 }
 
 #aside-titre {
