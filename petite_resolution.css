@@ -107,7 +107,27 @@
 
     .search-input
     {
-        padding-right: 80px;
+        padding-right: 120px;
+    }
+    
+    #economique
+    {
+        width: 26%;
+    }
+
+    #familial
+    {
+        width: 17%;
+    }
+
+    #romantique
+    {
+        width: 26%;
+    }
+
+    #animaux
+    {
+        width: 40%;
     }
     
     .img
@@ -197,6 +217,11 @@
         border-bottom-right-radius: 15px;
     }
     
+    .port 
+    {
+        margin: 0%;
+    }
+    
     .descport
     {
         width: 100%;
@@ -215,6 +240,11 @@
         box-sizing: border-box
     }
 
+    .calanques 
+    {
+        margin: 0%;
+    }
+    
     .desccalanques
     {
         width: 100%;
@@ -251,8 +281,6 @@
         width: 90%;
         margin: auto;
     }
-
-    
 
     #activites_container {
         flex-direction: column;

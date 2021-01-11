@@ -72,7 +72,9 @@ nav a
 
 .search-input
 {
-    padding: 12px;
+    padding: 15px;
+    border: none;
+    margin-left: 10px;
 }
 
 #logements
@@ -138,94 +140,94 @@ p
 
 #economique
 {
-    display: flex;
-    flex-wrap: wrap;
     border: 3px #F2F2F2 solid;
     border-radius: 100px;
     border-color: #F2F2F2;
-    align-items: center;
-    width: fit-content;
     margin: 20px;
     padding-right: 20px;
     font-weight: bold;
+    position: relative;
+    padding-left: 62px;
 }
 
 .money
 {
     color: #0065FC;
     background-color: #DEEBFF;
-    border-radius: 100%;
-    margin-right: 10px;
-    border: 20px #DEEBFF solid;
+    border-radius: 50%;
+    border: 21px #DEEBFF solid;
+    position: absolute;
+    top: -4px;
+    left: -4px;
 }
 
 #familial
 {
-    display: flex;
-    flex-wrap: wrap;
     border: 3px #F2F2F2 solid;
     border-radius: 100px;
     border-color: #F2F2F2;
-    align-items: center;
-    width: fit-content; 
     margin: 20px;
     padding-right: 20px;
     font-weight: bold;
+    position: relative;
+    padding-left: 62px;
 }
 
 .child
 {
     color: #0065FC;
     background-color: #DEEBFF;
-    border-radius: 100%;
-    margin-right: 10px;
-    border: 20px #DEEBFF solid; 
+    border-radius: 50%;
+    border: 21px #DEEBFF solid;
+    position: absolute;
+    top: -4px;
+    left: -4px;
 }
 
 #romantique
 {
-    display: flex;
-    flex-wrap: wrap;
     border: 3px #F2F2F2 solid;
     border-radius: 100px;
     border-color: #F2F2F2;
-    align-items: center;
-    width: fit-content;
     margin: 20px;
     padding-right: 20px;
     font-weight: bold;
+    position: relative;
+    padding-left: 62px;
 }
 
 .heart
 {
     color: #0065FC;
     background-color: #DEEBFF;
-    border-radius: 100%;
-    margin-right: 10px;
-    border: 20px #DEEBFF solid;  
+    border-radius: 50%;
+    border: 21px #DEEBFF solid;
+    position: absolute;
+    top: -4px;
+    left: -4px; 
 }
 
 #animaux
 {
-    display: flex;
-    flex-wrap: wrap;
     border: 3px #F2F2F2 solid;
     border-radius: 100px;
     border-color: #F2F2F2;
-    align-items: center;
-    width: fit-content;
     margin: 20px;
     padding-right: 20px;
     font-weight: bold;
+    position: relative;
+    padding-left: 62px;
 }
 
 .dog
 {
     color: #0065FC;
     background-color: #DEEBFF;
-    border-radius: 100%;
-    margin-right: 10px;
-    border: 20px #DEEBFF solid; 
+    border-radius: 50%;
+    border: 21px #DEEBFF solid;
+    position: absolute;
+    top: -4px;
+    left: -4px;
 }
 
 .dog:hover
@@ -262,8 +264,13 @@ section
     display: flex;
     flex-wrap: wrap;
     margin-right: 10px;
-    border: 17px #F2F2F2 solid;
     border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: #F2F2F2;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
 }
 
 .star
@@ -283,6 +290,7 @@ section
     padding-top: 20px;
     border-radius: 20px;
     width: 63%;
+    margin-bottom: 30px;
 }
 
 .hebergements
@@ -399,6 +407,7 @@ aside
     background-color: #F2F2F2;
     border-radius: 20px;
     border: 10px #F2F2F2 solid;
+    margin-bottom: 30px;
 }
 
 #aside-titre {
@@ -435,7 +444,7 @@ aside
 .container2
 { 
     padding-top: 20px;
-    width: 112%;
+    width: 100%;
     margin-left: 20px;
 }
 
@@ -443,7 +452,6 @@ aside
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .img
@@ -458,6 +466,11 @@ aside
     
 }
 
+.port 
+{
+    margin: 0 20px;
+}
+
 .descport
 {
     background-color: white;
@@ -470,6 +483,11 @@ aside
     box-shadow: 1px 1px 30px black;
     position: relative;
     bottom: 10px;
+}
+
+.fort 
+{
+    margin: 0 20px;
 }
 
 .descfort
@@ -487,6 +505,11 @@ aside
     bottom: 10px;
 }
 
+.frioul 
+{
+    margin: 0 20px;
+}
+
 .descfrioul
 {
     background-color: white;
@@ -501,6 +524,11 @@ aside
     bottom: 60px;
 }
 
+.calanques 
+{
+    margin: 0 20px;
+}
+
 .desccalanques
 {
     background-color: white;
@@ -513,6 +541,11 @@ aside
     box-shadow: 1px 1px 30px black;
     position: relative;
     bottom: 10px;
+}
+
+.garde 
+{
+    margin: 0 20px;
 }
 
 .descgarde
@@ -530,6 +563,11 @@ aside
     bottom: 10px;
     position: relative;
     bottom: 10px;
+}
+
+.parc 
+{
+    margin: 0 20px;
 }
 
 .descparc
