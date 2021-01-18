@@ -6,6 +6,11 @@
         margin-left: 0%;
     }
 
+    #bloc_page
+    {
+        margin-left: 10px;
+    }
+
     header nav 
     {
         width: 100%;
@@ -71,6 +76,11 @@
     #rechercher
     {
         margin-left: 0%;
+    }
+
+    #filtres_nom
+    {
+        margin-left: 10px;
     }
 
     #filtre
