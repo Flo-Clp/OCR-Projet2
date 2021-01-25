@@ -105,6 +105,12 @@ nav a
     display: none;
 }
 
+#filtres
+{
+    display: flex;
+    margin: 0%;
+}
+
 #filtres_nom
 {
     margin-left: 20px;
