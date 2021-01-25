@@ -117,7 +117,7 @@
 
     .search-input
     {
-        padding-right: 120px;
+        padding-right: 56px;
     }
     
     #economique
@@ -277,12 +277,6 @@
     {
         background-color: white;
         width: 100%;
-    }
-
-    #filtre
-    {
-        justify-content: left;
-        display: block;
     }
 
     #hebergement_section
